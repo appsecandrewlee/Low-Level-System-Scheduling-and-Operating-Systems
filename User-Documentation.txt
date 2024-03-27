@@ -1,0 +1,17 @@
+To compile: gcc -o fileutil File-Utilisation-commands.c
+
+<sourcefile.txt>: a source in .txt format with characters
+<destfile.txt>: a destination in .txt format with/without characters
+<-a>: custom append function
+<-n>: a custom view function 
+<num>: number 
+
+Example Command 1: ./fileutil
+Example Command 2: ./fileutil <filename.txt> 
+Example Command 3: ./fileutil -n 20 
+Example Command 4: ./fileutil <sourcefile.txt>
+Example Command 5: ./fileutil <sourcefile.txt> <-a> <destinationfile.txt>
+Example Command 6: ./fileutil <sourcefile.txt> <-a> <destinationfile.txt> <-n> <num>
+Example Command 7: ./fileutil <-a> <destinationfile.txt>
+Example Command 8: ./fileutil <sourcefile.txt> <-n> <num> <-a> <destinationfile.txt> 
+Example Command 9: ./fileutil <sourcefile.txt> <-a> <destinationfile.txt> <-n> <num> 
